@@ -1,9 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Home from './components/Home.jsx';
+import Dashboard from './pages/Dashboard.jsx';
 
 export default function App() {
     return (
-        <Home />
+        <div className="min-h-screen bg-gray-50">
+        <Dashboard />
+        </div>
     );
 }
